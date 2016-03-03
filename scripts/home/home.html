@@ -1,0 +1,19 @@
+
+ <div data-ng-controller="HomeController as vm">
+
+ <!--Buttons to click the categories-->
+ <div class="btn-group" role="group" aria-label="Categories">
+  <button type="button" class="btn btn-default" data-ng-click="filters.Category = ''">All</button>
+  <button type="button" class="btn btn-default" data-ng-click="filters.Category = 'Design'">Design</button>
+  <button type="button" class="btn btn-default" data-ng-click="filters.Category = 'Development'">Development</button>
+  <button type="button" class="btn btn-default" data-ng-click="filters.Category = 'Consultancy'">Consultancy</button>
+</div>
+
+<!-- Cards of all Work -->
+  <div class="row" data-ng-repeat="job in vm.jobs.work | filter:filters">
+    <div class="col-md-4">
+      <h2>{{job.Client}}</h2> <span> {{job.Category}}</span>
+    </div>
+  </div>
+  
+<div>

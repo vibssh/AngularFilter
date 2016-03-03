@@ -1,0 +1,29 @@
+{
+  "work": [
+    {
+      "Client": "Benz",
+      "Image": "/img/client/Benz.jpg",
+      "Category": "Consultancy"
+    },
+    {
+      "Client": "Tata",
+      "Image": "/img/client/tata.jpg",
+      "Category": "Design"
+    },
+    {
+      "Client": "GM Motors",
+      "Image": "/img/client/gmmotors.jpg",
+      "Category": "Development"
+    },
+    {
+      "Client": "VW Group",
+      "Image": "/img/client/vwgroup.jpg",
+      "Category": "Design"
+    },
+    {
+      "Client": "BMW",
+      "Image": "/img/client/bmw.jpg",
+      "Category": "Development"
+    }
+  ]
+}
